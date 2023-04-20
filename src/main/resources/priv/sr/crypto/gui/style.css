@@ -1,0 +1,20 @@
+.com-background{
+    -fx-background-color: #d1eef7;
+}
+.transparent{
+    -fx-background-color: transparent;
+}
+
+.border{
+    -fx-border-color: #d1eef7;
+    -fx-border-width: 1.5;
+}
+
+.right-side-border{
+    -fx-border-color: #d1eef7;
+    -fx-border-width: 0 1.5 0 0;
+}
+
+.button:hover {
+    -fx-background-color: derive(-fx-base, 5%);
+}

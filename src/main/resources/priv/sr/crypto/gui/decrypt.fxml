@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="880.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="priv.sr.crypto.gui.DecryptController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="600.0" prefWidth="877.0">
+         <children>
+            <Pane prefHeight="180.0" prefWidth="479.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <Button fx:id="btnHome" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleBtnHome" prefHeight="40.0" prefWidth="140.0" styleClass="com-background" stylesheets="@style.css" text="Home" textFill="#5b5c5b">
+                     <font>
+                        <Font name="Arial Bold" size="24.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="lbErrorMsg" alignment="CENTER" layoutX="328.0" layoutY="118.0" prefHeight="58.0" prefWidth="230.0" textFill="#e80303" />
+                  <Text fill="#009ad9" layoutX="200.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data Outsourcing System Download" textAlignment="CENTER" wrappingWidth="468.244140625">
+                     <font>
+                        <Font name="System Bold" size="36.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Button fx:id="btnSelectFile2" mnemonicParsing="false" prefHeight="40.0" prefWidth="377.0" styleClass="com-background" stylesheets="@style.css" text="Select File" textFill="#5b5c5b">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="50.0" right="50.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+            <HBox nodeOrientation="LEFT_TO_RIGHT" prefHeight="51.0" prefWidth="611.0" styleClass="border" stylesheets="@style.css">
+               <VBox.margin>
+                  <Insets left="100.0" right="100.0" top="30.0" />
+               </VBox.margin>
+               <children>
+                  <Pane prefHeight="50.0" prefWidth="71.0" styleClass="com-background" stylesheets="@style.css">
+                     <children>
+                        <ImageView fitHeight="43.0" fitWidth="34.0" layoutX="18.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@File_icon.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Label fx:id="lbFilePath" prefHeight="48.0" prefWidth="610.0" text="File Path" textFill="#5b5c5b">
+                     <font>
+                        <Font name="Arial Bold" size="18.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </HBox>
+            <Button fx:id="btnDownload" mnemonicParsing="false" prefHeight="40.0" prefWidth="377.0" styleClass="com-background" stylesheets="@style.css" text="Download File" textFill="#5b5c5b">
+               <VBox.margin>
+                  <Insets left="50.0" right="50.0" top="30.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+            </Button>
+            <Pane prefHeight="60.0" prefWidth="479.0" VBox.vgrow="ALWAYS" />
+         </children>
+      </VBox>
+   </children>
+</HBox>
