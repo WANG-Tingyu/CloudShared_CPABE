@@ -1,6 +1,8 @@
 # Secure Cloud Data Sharing System based on CPABE
 - demo link: https://youtu.be/SDvfM-Lr2yg?si=FJW8396ogCgT-52z
 
+- :star2: **Found this repository helpful?** Light it up with a star and make my day! :wink:
+---
 ## 1. System Overview
 
 ### 1.1 System Architecture
@@ -195,3 +197,5 @@ Considering the limited development time of this semester, although our system i
 - Wenxian.P.(2021). Research on anomaly detection method of ABAC security policy (Master’s thesis, Xidian University). https://kns.cnki.net/kcms2/article/abstract?v=NqlIjvqdxVOtcYQXMLyS9u6PTbslNi8jbu5VTPw7w6JTzNscz-FMLUabvVx3C1O3i4V2md7gVSC_KuK0vcKHsVO--Of4NlQmHIcSBYmCLsJB8KRT3xQSciUxKyZwim3PUOT-8NzIlSI=&uniplatform=NZKPT&language=CHS
 - Dataworld consulting.(2022). How to use public cloud safely. https://www.secrss.com/articles/48643
 - Runhong.P.(2022). Banking private cloud construction and development research report. Softwareguide.Computerize Electronic finance
+---
+- :star2: **Found this repository helpful?** Light it up with a star and make my day! :wink:
